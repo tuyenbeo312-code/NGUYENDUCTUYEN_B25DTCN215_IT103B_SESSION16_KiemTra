@@ -1,4 +1,3 @@
-// Mảng dữ liệu ban đầu
 let tasks = ["Quét nhà", "Giặt quần áo", "Tắm", "Chơi Game", "Đi Ngủ"];
 
 const taskInput = document.getElementById("taskInput");
@@ -30,3 +29,4 @@ function addTask() {
 addBtn.addEventListener("click", addTask);
 
 renderList();
+
